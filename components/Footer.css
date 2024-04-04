@@ -1,0 +1,50 @@
+.footer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #012332;
+    width: 100%;
+    max-width:100vw;
+    box-sizing: border-box
+  }
+  
+  .contact-heading {
+    color: blue;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #ddd;
+  }
+  
+  .line {
+    border-top: 1px solid #555; 
+    padding:65p;
+  }
+  
+  .contact-text {
+    color: #ddd; 
+  }
+  
+  .copyright-text {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .icon {
+      font-size: 18px;
+      
+      width: calc(100%-20px);
+    }
+  
+    .line {
+      margin: 10px 0;
+      padding:65px; 
+    }
+  }
+  

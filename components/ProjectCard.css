@@ -1,0 +1,48 @@
+.project-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin: 40px auto;
+    max-width: 1000px; 
+  }
+  
+  .project-card h1 {
+    color: purple ;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .project-card p {
+    color: rgb(76, 6, 114);
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .project-card {
+      padding: 20px 0;
+      margin:10px;
+    }
+  
+    .project-card h1 {
+      font-size: 15px 0;
+    }
+  
+    .project-card p {
+      font-size: 14px;
+    }
+  }
+  
